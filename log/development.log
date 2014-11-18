@@ -859,3 +859,9 @@ ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
   Rendered /Users/khrystynaklochko/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
   Rendered /Users/khrystynaklochko/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
   Rendered /Users/khrystynaklochko/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.5ms)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "products"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 'MyString', 9.99, '2014-11-18 22:12:13', '2014-11-18 22:12:13', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 'MyString', 9.99, '2014-11-18 22:12:13', '2014-11-18 22:12:13', 298486374)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "products" ("title", "description", "price", "image_url", "created_at", "updated_at", "id") VALUES ('Programming Ruby 1.9', 'Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.', 49.5, 'ruby.png', '2014-11-18 22:12:13', '2014-11-18 22:12:13', 207281424)[0m
+  [1m[35m (1.5ms)[0m  commit transaction
