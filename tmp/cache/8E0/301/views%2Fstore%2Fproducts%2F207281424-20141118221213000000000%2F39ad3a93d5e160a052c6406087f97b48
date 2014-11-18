@@ -1,0 +1,25 @@
+o: ActiveSupport::Cache::Entry:@valueI"Z     <div class="entry">
+         <img alt="Mystring" src="/images/MyString" />
+         <h3>MyString</h3>
+         MyText
+         <div class="price_line">
+             <span class="price">$9.99</span>
+         </div>
+     </div>
+     <div class="entry">
+         <img alt="Mystring" src="/images/MyString" />
+         <h3>MyString</h3>
+         MyText
+         <div class="price_line">
+             <span class="price">$9.99</span>
+         </div>
+     </div>
+     <div class="entry">
+         <img alt="Ruby" src="/images/ruby.png" />
+         <h3>Programming Ruby 1.9</h3>
+         Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
+         <div class="price_line">
+             <span class="price">$49.50</span>
+         </div>
+     </div>
+:ET:@created_atf1416353737.524113:@expires_in0

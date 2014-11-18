@@ -1,0 +1,9 @@
+o: ActiveSupport::Cache::Entry:@valueI"ç     <div class="entry">
+         <img alt="Mystring" src="/images/MyString" />
+         <h3>MyString</h3>
+         MyText
+         <div class="price_line">
+             <span class="price">$9.99</span>
+         </div>
+     </div>
+:ET:@created_atf1416353737.51673:@expires_in0
